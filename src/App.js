@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './index.css';
+import './normilize.css'
+import imgRedux from './img/redux.png'
+import {Link} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p className="topText">Привет! Тут собраны компоненты созданные с использованием Redux</p>
+      <nav className="menu">
+        <Link to="/counter" className={'menuButton'}>
+          <p className={'menuText'}>
+            Счётчик
+          </p>
+        </Link>
+        <Link to="/todo" className={'menuButton'}>
+          <p className={'menuText'}>
+            Todo
+          </p>
+        </Link>
+        <Link to="/trello" className={'menuButton'}>
+          <p className={'menuText'}>
+            Трелло
+          </p>
+        </Link>
+        <img className={'menuImg'} src={imgRedux} alt={'ReduxPhoto'}/>
+      </nav>
+
     </div>
   );
 }
