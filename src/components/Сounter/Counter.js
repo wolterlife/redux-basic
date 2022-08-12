@@ -4,7 +4,7 @@ import {useDispatch, useSelector, useStore} from "react-redux";
 import BackButton from "../BackButton/BackButton";
 
 const Counter = () => {
-  const count = useSelector(state => state)
+  const count = useSelector(state => state.counter)
   const dispatch = useDispatch()
   return (
       <div className={"counter"}>

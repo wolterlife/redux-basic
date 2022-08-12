@@ -1,0 +1,68 @@
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.textDescription {
+    color: white;
+    font-size: 24px;
+    font-family: Consolas, sans-serif;
+}
+
+.addContainer {
+    height: 30px;
+}
+
+.addInput {
+    height: 100%;
+    font-family: Consolas, sans-serif;
+    background-color: white;
+    border-radius: 4px;
+    outline: none;
+}
+
+.addButton {
+    padding: 6px;
+    margin-left: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #49ff49;
+    font-family: Consolas, sans-serif;
+}
+
+.addButton:active {
+    transition-delay: inherit;
+    background-color: #35b434;
+}
+
+.taskContainer {
+    background-color: #a077f3;
+    margin-top: 24px;
+    height: 30px;
+}
+
+.taskInput {
+    font-family: Consolas, sans-serif;
+    background-color: white;
+    height: 100%;
+    outline: none;
+    border-radius: 4px;
+
+}
+
+.buttonTask {
+    border-radius: 4px;
+    min-width: 40px;
+    cursor: pointer;
+    margin-left: 8px;
+    height: 100%;
+    font-family: Consolas, sans-serif;
+    background-color: #F2FE6E;
+}
+
+.buttonTask:active {
+    background-color: #cbd959;
+}
