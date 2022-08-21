@@ -50,7 +50,15 @@
     height: 100%;
     outline: none;
     border-radius: 4px;
+}
 
+.taskInputComplete {
+    font-family: Consolas, sans-serif;
+    background-color: white;
+    height: 100%;
+    outline: none;
+    border-radius: 4px;
+    text-decoration: line-through;
 }
 
 .buttonTask {
