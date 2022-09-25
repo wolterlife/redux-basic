@@ -19,11 +19,6 @@ function App() {
             Todo
           </p>
         </Link>
-        <Link to="/trello" className={'menuButton'}>
-          <p className={'menuText'}>
-            Трелло
-          </p>
-        </Link>
         <img className={'menuImg'} src={imgRedux} alt={'ReduxPhoto'}/>
       </nav>
 
